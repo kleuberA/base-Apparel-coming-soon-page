@@ -1,0 +1,285 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	height: 100vh;
+	width: 50%;
+}
+.logo{
+	margin: 9vh 15vh;
+	position: relative;
+}
+.title{
+	margin: 5vh 15vh;
+	font-size: 50px;
+	width: 38%;
+	font-weight: 300;
+	color: hsl(0, 36%, 70%);
+	letter-spacing: 14px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.titleModified{
+	color: hsl(0, 6%, 24%);
+	font-weight: 600;
+	letter-spacing: 7px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.text{
+	margin: 5vh 15vh;
+	font-family: 'Josefin Sans', sans-serif;
+	width: 63%;
+	color: hsl(0, 36%, 70%);
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 16px;
+}
+.inputEmail{
+	width: 24vw;
+	height: 5vh;
+	border-radius: 2vh;
+	border: 1px solid lightgrey;
+	padding: 0 0 0 2vh;
+	outline: none;
+	position: relative;
+	font-family: 'Josefin Sans', sans-serif;
+	right: -14%;
+}
+.iconArrow{
+	width: 4vw;
+	height: 5.4vh;
+	border-radius: 3vh;
+	border: none;
+	position: relative;
+	left: 51px;
+	cursor: pointer;
+	background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%), hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+	z-index: 1;
+	top: 4px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.msgErro{
+	color: hsl(0, 93%, 68%);
+	margin: 1vh 16.7vh 0 16.7vh;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.inputErro{
+	border: 1px solid hsl(0, 93%, 68%);
+}
+.iconErro{
+	right: 6vh;
+	position: relative;
+	top: 1vh;
+	justify-content: center;
+	text-align: center;
+	visibility: hidden;
+}
+.imageHero{
+	background: url(images/hero-desktop.jpg);
+	width: 50.17%;
+	height: 100vh;
+	position: absolute;
+	background-repeat: no-repeat;
+	left: 103vh;
+	top: 0px;
+	background-size: 100%;
+}
+.footer{
+	top: 15%; 
+	position: relative;
+}
+@media (max-width: 375px){
+	.container{
+		height: 50vh;
+		width: 100%;
+		position: relative;
+		top: 70vh;
+	}
+	.logo{
+		margin: 4vh 5vh;
+		position: relative;
+		top: -65vh;
+	}
+	.title{
+		font-size: 50px;
+		width: 100%;
+		font-weight: 300;
+		color: hsl(0, 36%, 70%);
+		letter-spacing: 14px;
+		font-family: 'Josefin Sans', sans-serif;
+		justify-content: center;
+		text-align: center;
+		margin: 0vh;
+	}
+	.titleModified{
+		color: hsl(0, 6%, 24%);
+		font-weight: 600;
+		letter-spacing: 7px;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	.text{
+		margin: 0vh;
+		font-family: 'Josefin Sans', sans-serif;
+		width: 100%;
+		color: hsl(0, 36%, 70%);
+		letter-spacing: 1px;
+		font-weight: 400;
+		font-size: 16px;
+		justify-content: center;
+		text-align: center;
+		padding: 2vh 0;
+	}
+	.inputEmail{
+		width: 60vw;
+		height: 7vh;
+		border-radius: 4vh;
+		border: 1px solid lightgrey;
+		padding: 0 0 0 2vh;
+		outline: none;
+		position: relative;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	.iconArrow{
+		width: 15vw;
+		height: 7.7vh;
+		border-radius: 4vh;
+		border: none;
+		position: relative;
+		left: 1px;
+		cursor: pointer;
+		background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%), hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+		z-index: 1;
+		top: 4px;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
+	.msgErro{
+		color: hsl(0, 93%, 68%);
+		margin: 1vh 11.5vh 0 11.5vh;
+		font-size: 16px;
+		font-weight: 300;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	.inputErro{
+		border: 1px solid hsl(0, 93%, 68%);
+	}
+	.iconErro{
+		right: 16vh;
+		position: relative;
+		top: 1.5vh;
+		justify-content: center;
+		text-align: center;
+		visibility: hidden;
+	}
+	.imageHero{
+		background: url(images/hero-desktop.jpg);
+		width: 100%;
+		height: 55vh;
+		position: absolute;
+		background-repeat: no-repeat;
+		left: 0vh;
+		top: 25vh;
+		background-size: 100%;
+	}
+	.footer{
+		top: 4%;
+		position: relative;
+	}
+}
+@media (min-width: 1000px) and (max-width: 1050px){
+	.container{
+		height: 100vh;
+		width: 50%;
+	}
+	.logo{
+		margin: 9vh 15vh;
+		position: relative;
+	}
+	.title{
+		margin: 5vh 15vh;
+		font-size: 50px;
+		width: 38%;
+		font-weight: 300;
+		color: hsl(0, 36%, 70%);
+		letter-spacing: 14px;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	.titleModified{
+		color: hsl(0, 6%, 24%);
+		font-weight: 600;
+		letter-spacing: 7px;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	.text{
+		margin: 5vh 15vh;
+		font-family: 'Josefin Sans', sans-serif;
+		width: 63%;
+		color: hsl(0, 36%, 70%);
+		letter-spacing: 1px;
+		font-weight: 400;
+		font-size: 16px;
+	}
+	.inputEmail{
+		width: 24vw;
+		height: 5vh;
+		border-radius: 2vh;
+		border: 1px solid lightgrey;
+		padding: 0 0 0 2vh;
+		outline: none;
+		position: relative;
+		font-family: 'Josefin Sans', sans-serif;
+		right: -14%;
+	}
+	.iconArrow{
+		width: 4vw;
+		height: 5.4vh;
+		border-radius: 3vh;
+		border: none;
+		position: relative;
+		left: 51px;
+		cursor: pointer;
+		background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%), hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+		z-index: 1;
+		top: 4px;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
+	.msgErro{
+		color: hsl(0, 93%, 68%);
+		margin: 1vh 16.7vh 0 16.7vh;
+		font-size: 16px;
+		font-weight: 300;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	.inputErro{
+		border: 1px solid hsl(0, 93%, 68%);
+	}
+	.iconErro{
+		right: 6vh;
+		position: relative;
+		top: 1vh;
+		justify-content: center;
+		text-align: center;
+		visibility: hidden;
+	}
+	.imageHero{
+		background: url(images/hero-desktop.jpg);
+		width: 50.6%;
+		height: 100vh;
+		position: absolute;
+		background-repeat: no-repeat;
+		left: 86vh;
+		top: 0px;
+		background-size: 100%;
+	}
+	.footer{
+		top: 5%;
+		position: relative;
+	}
+}
